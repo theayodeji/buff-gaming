@@ -1,0 +1,193 @@
+@import url('https://fonts.cdnfonts.com/css/product-sans');
+@import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl');
+@import "resets";
+@import "variables";
+
+p, span, div{
+  font-family: 'Product Sans', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'TT Firs Neue Trl', sans-serif;
+}
+
+//utility classes
+
+/* Container Styling */
+.container {
+    max-width: 100%;
+    padding: 0 20px; /* Adjust padding as needed */
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  /* Font Styling */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  /* Font Weight */
+  .fw-100 {
+    font-weight: 100;
+  }
+  
+  .fw-200 {
+    font-weight: 200;
+  }
+  
+  .fw-300 {
+    font-weight: 300;
+  }
+  
+  .fw-400 {
+    font-weight: 400;
+  }
+  
+  .fw-500 {
+    font-weight: 500;
+  }
+  
+  .fw-600 {
+    font-weight: 600;
+  }
+  
+  .fw-700 {
+    font-weight: 700;
+  }
+  
+  .fw-800 {
+    font-weight: 800;
+  }
+  
+  .fw-900 {
+    font-weight: 900;
+  }
+  
+  /* Spacing Styling */
+  .m-0 {
+    margin: 0;
+  }
+  
+  .mt-0 {
+    margin-top: 0;
+  }
+  
+  .mb-0 {
+    margin-bottom: 0;
+  }
+  
+  .ml-0 {
+    margin-left: 0;
+  }
+  
+  .mr-0 {
+    margin-right: 0;
+  }
+  
+  .m-1 {
+    margin: 0.25rem;
+  }
+  
+  .mt-1 {
+    margin-top: 0.25rem;
+  }
+  
+  .mb-1 {
+    margin-bottom: 0.25rem;
+  }
+  
+  .ml-1 {
+    margin-left: 0.25rem;
+  }
+  
+  .mr-1 {
+    margin-right: 0.25rem;
+  }
+  
+  /* Flex Column */
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Flex Row */
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Flex Properties */
+  .jc-center {
+    justify-content: center;
+  }
+  
+  .jc-start {
+    justify-content: flex-start;
+  }
+  
+  .jc-end {
+    justify-content: flex-end;
+  }
+  
+  .jc-between {
+    justify-content: space-between;
+  }
+  
+  .ai-center {
+    align-items: center;
+  }
+  
+  .ai-start {
+    align-items: flex-start;
+  }
+  
+  .ai-end {
+    align-items: flex-end;
+  }
+  
+  /* Grid */
+  .grid {
+    display: grid;
+  }
+  
+  /* Grid Properties */
+  .gap-1 {
+    gap: 1rem;
+  }
+  
+  .gap-2 {
+    gap: 2rem;
+  }
+  
+  .gap-3 {
+    gap: 3rem;
+  }
+  
+  .grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  /* Additional Grid Properties and Classes can be added as needed */
+  
+  html body *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }

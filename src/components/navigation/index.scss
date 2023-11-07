@@ -1,0 +1,18 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    background-color: #f1f1f1;
+    height: 100%;
+    gap: 2rem;
+    padding-block: 2rem;
+    padding-inline: 1rem;
+    align-items: center;
+    z-index: 1000000;
+}
+
+.logo{
+    margin-bottom: 4rem;
+}

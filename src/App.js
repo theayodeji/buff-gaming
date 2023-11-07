@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {createContext, useState} from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from "./pages/Home/Home"
+import Navbar from './components/navigation/Navbar';
+
+export const LoginContext = createContext();
 
 function App() {
+  const [loggedIn, setLoggedIn] = useState(false);
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <LoginContext.Provider value={[loggedIn, setLoggedIn]}>
+        <div className="App">
+          <Navbar />
+          <Routes>
+            <Route path='/' element={<Home />  }/>
+          </Routes>
+
+        </div>
+    </LoginContext.Provider>
+    
   );
 }
 
