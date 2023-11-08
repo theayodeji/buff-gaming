@@ -1,9 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-function ArticleContainer({ hasText, section, articleImg, title, text, date, author, subtitle, timeToRead }) {
+function ArticleContainer({ hasText, section, articleImg, title, text, date, author, subtitle, timeToRead, id }) {
   return (
-    <Link to={"/"} className={`${section}-article-preview-container`}>
+    <a href={"/articles/" + id} className={`${section}-article-preview-container`}>
       <img src={articleImg} alt="" />
       {hasText ? (
         <div className="article-preview-text">
@@ -25,7 +24,7 @@ function ArticleContainer({ hasText, section, articleImg, title, text, date, aut
           </div>
         </div>
       )}
-    </Link>
+    </a>
   );
 }
 

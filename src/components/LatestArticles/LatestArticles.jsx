@@ -1,5 +1,5 @@
 import React from 'react';
-import ArticleContainer from "../article/ArticleContainer"
+import ArticleContainer from "../articlePreview/ArticleContainer"
 import "./index.scss"
 
 const headlines = [
@@ -67,7 +67,7 @@ const headlines = [
   ];
 
   const articles = headlines.map((headline, i) =>{
-    return ( <ArticleContainer key={i} hasText={i===0 ? true : false} date={"25 Dec 2022"} section={"latest-articles"} {...headline}/> )
+    return ( <ArticleContainer key={i} id={i} hasText={i===0 ? true : false} date={"25 Dec 2022"} section={"latest-articles"} {...headline}/> )
   })
 
 function LatestArticles() {

@@ -9,7 +9,7 @@ import CategoriesSelect from '../../components/categories/CategoriesSelect'
 function Home() {
 
   return (
-    <div className='home'>
+    <div className='container home'>
       <HomePreviewSlider />
       <AsideContainer />
       <FeaturedGames />

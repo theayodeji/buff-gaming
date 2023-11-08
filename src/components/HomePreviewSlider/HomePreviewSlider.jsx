@@ -51,8 +51,8 @@ function HomePreviewSlider() {
 
   const headlineEl = headlines.map((headline, index) => {
     return (
-      <SwiperSlide key={index}>
-        <PreviewSlide {...headline} />
+      <SwiperSlide key={index} >
+        <PreviewSlide {...headline} id={index}/>
       </SwiperSlide>
     );
   });

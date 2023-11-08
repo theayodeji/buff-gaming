@@ -1,0 +1,41 @@
+@import "../../scss/variables";
+
+.article-wrapper {
+    >img {
+        border-radius: 20px;
+        width: 95%;
+        max-width: 1100px;
+        margin-bottom: 2rem;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .article-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+
+        .date{
+            margin-bottom: 1rem;
+        }
+
+        .title {
+            font-size: min(2rem, 10vw);
+            width: 100%;
+            text-transform: uppercase;
+        }
+
+        article{
+            margin-bottom: 2rem;
+            padding-inline-end: 2.5rem;
+        }
+    }
+
+    .related-articles{
+        margin-bottom: 2rem;
+    }
+
+
+}
