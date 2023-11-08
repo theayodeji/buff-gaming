@@ -74,7 +74,8 @@
                 width: 140px;
                 height: 190px;
                 object-fit: contain;
-                animation: zoomInDown 1.7s cubic-bezier(0.445, 0.05, 0.55, 0.95) forwards;
+                opacity: 0;
+                animation: backInRight 1.2s cubic-bezier(0.445, 0.05, 0.55, 0.95) forwards;
             }
         }
     }

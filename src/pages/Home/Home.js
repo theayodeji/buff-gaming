@@ -3,13 +3,18 @@ import HomePreviewSlider from '../../components/HomePreviewSlider/HomePreviewSli
 import "./index.scss"
 import AsideContainer from '../../components/ui/AsideContainer/AsideContainer'
 import FeaturedGames from '../../components/featuredgames/FeaturedGames'
+import LatestArticles from '../../components/LatestArticles/LatestArticles'
+import CategoriesSelect from '../../components/categories/CategoriesSelect'
 
 function Home() {
+
   return (
     <div className='home'>
       <HomePreviewSlider />
       <AsideContainer />
       <FeaturedGames />
+      <LatestArticles />
+      <CategoriesSelect />
     </div>
   )
 }

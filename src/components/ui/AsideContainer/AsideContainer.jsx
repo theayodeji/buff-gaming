@@ -5,6 +5,7 @@ import "./index.scss"
 function AsideContainer({ content }) {
   return (
     <aside className='aside' >
+      <div className='promo-text'></div>
         <Searchbar />
         {content}
     </aside>

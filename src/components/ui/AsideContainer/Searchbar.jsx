@@ -12,7 +12,7 @@ function Searchbar() {
                 <FiltersIcon />
                 <div className="filters">
                     <div className="filter-item">
-                    <input type="radio" name="filter-all" id="filter-all" value="all" checked/>
+                    <input readOnly type="radio" name="filter-all" id="filter-all" value="all" checked/>
                     <label htmlFor="filter-all">All</label>
                     </div>
                 </div>

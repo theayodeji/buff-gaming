@@ -11,6 +11,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
+
+
 function HomePreviewSlider() {
   const headlines = [
     {

@@ -176,11 +176,11 @@ h1, h2, h3, h4, h5, h6{
     grid-template-columns: repeat(2, 1fr);
   }
   
-  grid-3 {
+  .grid-3 {
     grid-template-columns: repeat(3, 1fr);
   }
   
-  grid-4 {
+  .grid-4 {
     grid-template-columns: repeat(4, 1fr);
   }
   
