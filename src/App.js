@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer';
 import Article from './pages/Article/Article';
 import Author from './pages/Author/Author';
 import Error from './pages/404/404';
+import Login from './pages/Auth/Login';
 
 export const LoginContext = createContext();
 
@@ -22,6 +23,7 @@ function App() {
             <Route path='/articles/:articleId' element={<Article />  }/>
             <Route path='/author' element={<Author />  }/>
             <Route path='/*' exact element={<Error errorText={"You have entered unknown edge of the site."} />  }/>
+            <Route path='/login' exact element={<Login />  }/>
           </Routes>
           <Footer />
         </div>
