@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/buff-gaming/static/css/main.995cf6cc.css",
+    "main.js": "/buff-gaming/static/js/main.769de8ec.js",
+    "static/media/valorant.png": "/buff-gaming/static/media/valorant.abba79f2e44995a59cc7.png",
+    "static/media/leagueoflegends.png": "/buff-gaming/static/media/leagueoflegends.27e92b404869ad39c53c.png",
+    "static/media/eafc.jpg": "/buff-gaming/static/media/eafc.ae1e8cecc27f67f84011.jpg",
+    "static/media/cod-poster.jpg": "/buff-gaming/static/media/cod-poster.3493366d4ad3cedd0baf.jpg",
+    "static/media/lol.svg": "/buff-gaming/static/media/lol.502a649f8967d99e78c6d5b30083823f.svg",
+    "static/media/league-of-legend.png": "/buff-gaming/static/media/league-of-legend.918b58982be23f60bb2f.png",
+    "static/media/valorant-agent.png": "/buff-gaming/static/media/valorant-agent.b4033f3f6f8b990e261d.png",
+    "static/media/csgo-character-model-png-the-image-is-png-format-with-a-clean-transparent-background-mundode-sophia 1.png": "/buff-gaming/static/media/csgo-character-model-png-the-image-is-png-format-with-a-clean-transparent-background-mundode-sophia 1.b13716eebeca9598cbe7.png",
+    "static/media/Logo.svg": "/buff-gaming/static/media/Logo.822c05761401b89b57a46f04488ee38c.svg",
+    "static/media/fortnite-char.png": "/buff-gaming/static/media/fortnite-char.fa7fc2ba6af76f603d3f.png",
+    "static/media/csgo.svg": "/buff-gaming/static/media/csgo.fedfc1d46ab74d1271c897f4cfd45fe9.svg",
+    "static/media/Vector.svg": "/buff-gaming/static/media/Vector.1ef5cc103fe1cea513f96790cdff35a7.svg",
+    "static/media/Vector-2.svg": "/buff-gaming/static/media/Vector-2.c2a0fcf5400184c5f6358e8a12f46516.svg",
+    "static/media/filters-icon.svg": "/buff-gaming/static/media/filters-icon.cb8bced4bd19a97d6cd13ae506dc9a55.svg",
+    "static/media/home.svg": "/buff-gaming/static/media/home.22bef15926dd822f7819d810e4954917.svg",
+    "static/media/search-icon.svg": "/buff-gaming/static/media/search-icon.6b09a64a60141e0b7096848a2169b098.svg",
+    "index.html": "/buff-gaming/index.html",
+    "static/media/Vector-1.svg": "/buff-gaming/static/media/Vector-1.187ba93fe0bf7b6cd0f27cd6b2267047.svg",
+    "static/media/FortniteLogo 2.svg": "/buff-gaming/static/media/FortniteLogo 2.878f46446cfbbe042595898ba9466705.svg",
+    "static/media/slide-control-right.svg": "/buff-gaming/static/media/slide-control-right.5f6577a473c2b17200fae7d8d2fcf2f3.svg",
+    "static/media/slide-control-left.svg": "/buff-gaming/static/media/slide-control-left.36384b4af2d58aa5ab53fff6c470ae4c.svg",
+    "main.995cf6cc.css.map": "/buff-gaming/static/css/main.995cf6cc.css.map",
+    "main.769de8ec.js.map": "/buff-gaming/static/js/main.769de8ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.995cf6cc.css",
+    "static/js/main.769de8ec.js"
+  ]
+}
